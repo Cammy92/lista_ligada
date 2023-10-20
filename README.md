@@ -15,18 +15,15 @@ Antes de começar, certifique-se de que você tenha o Python instalado no seu si
 Clone este repositório em seu sistema local usando o seguinte comando Git:
 
 ```bash
-git clone https://github.com/seu-usuario/repo-da-lista-ligada.git
+git clone https://github.com/Cammy92/lista_ligada.git
 ```
-
-Substitua seu-usuario e repo-da-lista-ligada pelo seu nome de usuário e nome do repositório apropriados.
-
 
 ### Passo 2: Navegar até o Diretório
 
 Navegue até o diretório do repositório clonado usando o terminal ou prompt de comando:
 
 ```bash
-cd repo-da-lista-ligada
+cd lista_ligada
 ```
 
 ### Passo 3: Executar os Testes
@@ -34,7 +31,7 @@ cd repo-da-lista-ligada
 Execute os testes da lista ligada com o seguinte comando:
 
 ```bash
-python lista_ligada_tests.py
+pytest main.py
 ```
 Os testes serão executados e você verá a saída no terminal. Certifique-se de que todos os testes passem com sucesso.
 
@@ -75,7 +72,7 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Comando para executar os testes
-CMD ["python", "lista_ligada_tests.py"]
+CMD ["python", "main.py"]
 
 ```
 
