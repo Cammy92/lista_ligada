@@ -98,11 +98,3 @@ docker run lista-ligada-app
 O comando acima executará o contêiner com base na imagem "lista-ligada-app" que você criou. Os testes da lista ligada serão executados no contêiner e você verá a saída no terminal.
 
 Certifique-se de que seu código-fonte e arquivos de teste estejam no mesmo diretório do Dockerfile.
-
-### Contribuição
-Fique à vontade para contribuir com melhorias ou correções para este repositório. Sinta-se à vontade para abrir problemas (issues) ou solicitações de pull (pull requests).
-
-Divirta-se trabalhando com listas ligadas em Python!
-
-Lembre-se de substituir seu-usuario e repo-da-lista-ligada pelos valores apropriados no URL do Git e nas instruções. Isso deve ajudar você a criar um README.md formatado para o GitHub com instruções de execução e testes.
-
